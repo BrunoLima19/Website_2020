@@ -1,0 +1,125 @@
+/**estilo de corpo*/
+body{
+    /** cor de fundo */
+    background: rgb(168, 163, 163);
+}
+/** # faz referência a um id de um elemento HTML */
+#conteudo{
+    background: rgb(255, 255, 255);    
+    /** espaçamento externo a esquerda -
+    quanto esta afastado a esquerda */
+    margin-left: 100px;
+    /** espaçamento externo a direita -
+    quanto esta afastado a direita */
+    margin-right: 100px;
+    /** espaçamento externo a direita -
+    quanto esta afastado a direita */
+    padding-left: 20px;
+    /** espaçamento interno a direita */
+    padding-right: 20px;
+    /** espaçamento interno a cima */
+    padding-top: 20px;
+    /**espaçamento interno abaixo */
+    padding-bottom: 10px;
+
+}
+/** estilo de h1 */
+h1 {
+    /** cor do texto */
+    color: rgb(252, 5, 5);
+    /** estilo da fonte */
+    font-family: fantasy;
+}
+
+/** estilo h2 */
+h2 {
+    /** cor texto */
+    color: rgb(138, 17, 9);
+    font-family: fantasy;
+}
+
+/** estilo dps p */
+p{
+    /** tamanho da fonte */
+    font-size: 13pt;
+}
+
+/** estilo das imagens */
+img {
+    /** desloca para a direita o maximo possivel */
+    margin-left: auto;
+    /** desloca para a esquerda o maximo possivel */
+    margin-right: auto;
+    /** faz isso apenas no bloco da imagem */
+    display: block;
+    /** margem de baixo */
+    margin-bottom: 50px;
+
+}
+/** estilo do menu */
+#menu {
+    background: rgba(168,163,163,0.9);
+    height: 200px; /** altura do menu */
+
+}
+
+/** estilo da lista do menu */
+#menu ul {
+    text-align: center; /** centralizado */
+    text-transform: uppercase; /** letra maiuscula - caixa alta */
+}
+
+/** estilo do item da lista do menu */
+#menu ul li {
+    display: inline-block; /** itens na mesma linha e em bloco */
+    margin-right: 20px; /** deslocamento de 20px para a esquerda */
+    margin-left: 20px; /** deslocamento de 20px para a direita */
+    margin-top: 70px; /** deslocamento de 70px para baixo */
+    background: rgba(138,17,9, 0.5);
+    padding: 5px;
+}
+
+#menu ul li:hover {
+    background: rgb(255, 0, 0);
+    transition: 2s; 
+}
+/** estilo do link do iten da lista do menu */
+#menu ul li a {
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: white;
+}
+
+#menu img {
+     /** deslocamento sera em relação a pagina e não em relação ao menu */
+    position: absolute; 
+    width: 150px; 
+    /** largura da imagem*/
+    margin-top: 20px; 
+    /** deslocamento para baixo */
+    margin-left: 20px;
+} 
+
+/** estilo footer */
+footer {
+    background: rgb(0,0,0);
+    color: rgb(255,255,255);
+    height: 100px; /** altura do cabeçalho */
+    padding-top: 50px; /** espaçamento interno */
+}
+
+.fotos-rodape {
+    width: 50px;
+    display: inline-block; /** todas as imagens na mesma linha e em bloco*/
+    margin-right: 10x;
+    margin-left:10px;
+    float: right; /** flutua a direita*/
+    margin-top: -50px; 
+}
+
+h3 {
+    margin-left: 20px;
+}
+
